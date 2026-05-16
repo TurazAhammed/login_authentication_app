@@ -3,6 +3,7 @@ import '../../../core/services/api_service.dart';
 import '../../../models/user_model.dart';
 import '../repository/auth_repository.dart';
 
+
 /// API Service Provider
 final apiServiceProvider = Provider((ref) {
   return ApiService();
